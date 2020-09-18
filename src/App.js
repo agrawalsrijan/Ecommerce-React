@@ -33,7 +33,7 @@ class App extends React.Component {
           console.log(snapShot.data());
         })
       }
-      currentUser(userAuth)
+      setCurrentUser(userAuth)
       
     })
   }
@@ -45,7 +45,7 @@ class App extends React.Component {
 
 
   render(){
-    const { currentUser } = this.state
+    // const { currentUser } = this.state
     return (
       <div>
         <Header />
